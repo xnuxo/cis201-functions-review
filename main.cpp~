@@ -22,8 +22,8 @@ int main()
 
 	cout << "Please enter a string: ";
 	getline(cin, in);
-	int out = detect_as(in);
-	cout << "The number of A's in the string is: " << out << endl;
+	int as = detect_as(in);
+	cout << "The number of A's in the string is: " << as << endl;
 	return 0;
 }
 
